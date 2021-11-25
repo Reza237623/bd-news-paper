@@ -1,0 +1,1067 @@
+
+    
+      .wrapper
+      {
+      width:100%; 
+      height:auto;
+      background:#fff;
+      
+    }
+    /*-----------------header part----------------*/
+
+       .header{
+          width:100%; 
+          height:65px;
+          color:#000;
+          font-size: 5px;
+          
+      }
+      .hed1{
+        width: 40%;
+        height: 65px;
+        float: left;
+      }
+      .dt{
+        width: 30%;
+        height: 25px;
+        background: green;
+        border-radius: 5px;
+        font-size: medium;
+        text-align: center;
+        margin: 5px;
+       
+      }
+      .dt2{
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        font-size: 30px ;
+        color: red;
+      }
+      
+      .hed2{
+        width:60%;
+        height: 65px;
+        float: left;
+        background: red;
+        color: #000;
+        text-align: center;
+        font-size: 15px;
+        
+      }
+      /*---------------------menu part--------------------*/
+
+      .header2{
+        width: 100%;
+        height: 35px;
+        margin-left: 5px;
+        padding: 5px;
+        
+      }
+      .header3{
+        width: 40%;
+        height: 35px;
+        float: left;
+        background: lightpink;
+        font-size: medium;
+        padding: 8px;
+      }
+      .header4{
+        width: 58%;
+        height: 35px;
+        background: red;
+        float: left;
+      }
+      .subm{
+        width: 70%;
+        height: 35px;
+        background: red;
+        float: left;
+      
+      }
+      
+#menu{
+  border:
+
+}
+#menu> ul{
+  background: ;
+}
+#menu ul{
+  list-style: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+#menu ul a {
+  width:100%;
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: bold;
+  padding:  10px;
+  display: block;
+  text-align: center;
+
+}
+#menu ul li{
+  float: left;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#menu ul li:hover{
+  background: #2ecc71;
+}
+#menu ul ul {
+  position: absolute;
+  background: #27ae60;
+  top:100%;
+  left: 0;
+  display:none;
+
+}
+#menu ul ul li{
+  float: none;
+  width: 200px;
+  border-left: 3px solid #2c3e60;
+}
+#menu ul ul li :hover{
+  border-left: 3px solid #2c3e50;
+}
+#menu ul ul ul{
+  top:-4px;
+  left:100%;
+}
+#menu ul li:hover>ul{
+  display: block;
+}
+      .subs{
+        width:30%;
+        height: 35px;
+        background: #fff;
+        float: left;
+        text-align: center;
+     
+      }
+/*----------------------mainbody part------------------------*/
+      .mainbody
+      {
+        width:100%; 
+        height:1100px;
+        
+    }
+ /*-------------------menu bar part-----------------------*/   
+    .menubar
+      {
+        width:100%; 
+        height:60px;
+        background: grey;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 10px;
+       
+    }
+    
+    ul{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      position: absolute;
+  }
+  ul li{
+      float: left;
+      margin-top: 8px;
+  }
+  ul li a{
+      width: 100px;
+      color: white;
+      display: block;
+      text-decoration:none;
+      font-size: 12px;
+      text-align:center;
+      padding: 10px;
+      border-radius: 5px;
+      font-family: century Gothic;
+      font-weight: bold;
+  }
+ a:hover{
+      background: #669900;
+  }
+  ul li ul {
+      background: #000033;
+  }
+  ul li ul li {
+      float: none;
+  }
+  ul li ul {
+      display: none;
+  }
+  ul li :hover ul{
+      display: block;
+  }
+
+/*-----------------banar part----------------*/
+
+  .Add{
+     width:100%;
+     height:130px;
+     margin-top: 5px;
+     margin-left: 5px;
+     
+  }
+  .Slid
+  {
+      width:100%;
+      height:50px;
+      margin: 5px; 
+  }
+
+/*------------------slidrt part--------------------*/
+
+  .Slid1
+  {
+     width:10%;
+      height:40px;
+     background:green;
+     padding: 10px;
+     float: left;
+  }
+  .Slid2
+  {
+     width:90%;
+      height:40px;
+     background:grey;
+     float: left;
+  }
+  .Slid22
+  {
+     width:100%;
+      height:40px;
+     float: left;
+     padding: 10px;
+  }
+/*----------------contain part------------------*/
+
+  .Contien1{
+    width: 100%;
+    height: 300px;
+    padding: 5px;  
+  }
+
+  /*----------------scale part 1-------------------*/
+
+     .Mbody1
+     {
+       width: 40%;
+       height: 300px;
+       float: left;
+       padding-top: 23px;
+       
+     }
+/*----------------mbody part 2--------------------*/
+
+     .Mbody2
+     {
+       width: 59%;
+       height: 290px;
+       float: right;
+       padding: 5px;
+      
+     }
+/*------------------news part 1---------------------*/
+     .news
+     {
+       width: 50%;
+       height: 300px;
+       float: left;
+     }
+       .news2{
+         width: 98%;
+         height: 20px;
+         border-bottom: 2px solid #000;
+         
+     }
+     .subn{
+      width: 67%;
+      height: 18px;
+      font-size: medium;
+      float: left;
+     }
+     .subn2{
+      width: 33%;
+      height: 18px;
+      background: red;
+      font-size: medium;
+      color: #fff;
+      float: left;
+      text-align: center;
+     }
+     .news3{
+      width:100%;
+      height: 275px;
+      float: left;
+       
+     }
+     .pic1{
+       width: 100%;
+       height: 69px;
+       
+     }
+     
+     .pic11{
+      width: 30%;
+      height: 60px;
+      margin: 5px;
+      float: left;
+    }
+    
+    .pic12{
+      width: 60%;
+      height: 60px;
+      margin: 5px;
+      float: left;
+    }
+     .pic2{
+       width: 100%;
+       height: 69px;
+      
+     }
+     
+     .pic21{
+      width: 30%;
+      height: 60px;
+      margin: 5px;
+      float: left;
+    }
+    
+    .pic22{
+      width: 60%;
+      height: 60px;
+      margin: 5px;
+      float: left;
+    }
+    
+     .pic3{
+      width: 100%;
+      height: 69px;
+      
+    }
+    
+    .pic31{
+      width: 30%;
+      height: 60px;
+      margin: 5px;
+      float: left;
+    }
+    
+    .pic33{
+      width: 60%;
+      height: 60px;
+      margin: 5px;
+      float: left;
+    }
+    
+    
+    .pic4{
+      width: 100%;
+      height: 68px;
+    }
+    
+    .pic41{
+      width: 30%;
+      height: 60px;
+      margin: 5px;
+      float: left;
+    }
+    
+    .pic44{
+      width: 60%;
+      height: 60px;
+      margin: 5px;
+      float: left;
+    }
+/*-------------newa part 2------------------*/
+
+     .news4{
+       width: 50%;
+       height: 300px;
+       float: left; 
+     }
+     .news5{
+        width: 100%;
+        height: 20px;
+        border-bottom: 2px solid #000;
+      
+     }
+     .nsub{
+      width: 60%;
+      height: 18px;
+      font-size: medium;
+      float: left;
+      text-align: center;
+     }
+     .nsub2{
+      width: 40%;
+      height: 18px;
+      background: red;
+      font-size: medium;
+      color: #fff;
+      float: left;
+      text-align: center;
+     }
+     .news6{
+      width: 99%;
+      height: 275px;
+      float: left;
+     }
+     .notice01{
+      width: 10%;
+      height: 30px;
+      float: left;
+    }
+     .notice1{
+       width: 90%;
+       height: 30px;
+       padding-top: 5px;
+       float: left;
+     }
+     
+     .notice02{
+      width: 10%;
+      height: 30px;
+      float: left;
+    }
+     .notice2{
+      width: 90%;
+      height: 30px;
+      float: left;
+     }
+     
+     .notice03{
+      width: 10%;
+      height: 30px;
+      float: left;
+    }
+     .notice3{
+      width: 90%;
+      height: 30px;
+      float: left;
+     }
+     
+     .notice04{
+      width: 10%;
+      height: 30px;
+      float: left;
+    }
+     .notice4{
+      width: 90%;
+      height: 30px;
+      float: left;
+     }
+     .notice05{
+      width: 10%;
+      height: 30px;
+      float: left;
+    }
+     .notice5{
+      width: 90%;
+      height: 30px;
+     float: left;
+     }
+     
+     .notice06{
+      width: 10%;
+      height: 30px;
+      float: left;
+    }
+     .notice6{
+      width: 90%;
+      height: 30px;
+      float: left;
+     }
+     
+     .notice07{
+      width: 10%;
+      height: 30px;
+      float: left;
+    }
+     .notice7{
+      width: 90%;
+      height: 30px;
+     float: left;
+     }
+     
+     .notice08{
+      width: 10%;
+      height: 30px;
+      float: left;
+    }
+     .notice8{
+      width: 90%;
+      height: 30px;
+      float: left;
+     }
+     .notice09{
+      width: 10%;
+      height: 30px;
+      float: left;
+    }
+     .notice9{
+      width: 90%;
+      height: 30px;
+      float: left;
+     }
+/*----------------banar part-------------------*/
+
+     .img{
+       width: 100%;
+       height: 80px;
+       
+     }
+     .img1{
+      width: 100%;
+      height: 50px;
+      margin: 5px;
+      margin-top: 30px;
+      font-size: 20px;
+      text-align: center;
+      background-color: red;
+      color: #fff;
+      padding: 13px;
+      
+    }
+
+/*--------------img part------------------*/
+
+     .img2{
+      width: 100%;
+      height: 150px;
+      margin: 5px;
+    }
+
+    .img3{
+      width: 33%;
+      height: 130px;
+     float: left;
+     
+    }
+    .img31{
+      width: 45%;
+      height: 130px;
+      background-image: url(sm.jpg);
+      border-radius: 15px;
+     float: left;
+     margin: 10px;
+      
+    }
+    .img32{
+      width: 45%;
+      height: 130px;
+     float: left;
+     margin: 10px;
+     font-size: medium;
+     color: #000;
+    
+      
+    }
+    .img4{
+      width: 33%;
+      height: 130px;
+      float: left;
+    }
+    .img41{
+      width:45%;
+      height: 130px;
+      background-image: url(goran.jpg);
+      border-radius: 15px;
+      float: left;
+     margin: 10px;
+    }
+    .img42{
+      width: 45%;
+      height: 130px;
+      float: right;
+     margin: 10px;
+     font-size: medium;
+     color: #000;
+    }
+
+    .img5{
+      width: 33%;
+      height: 130px;
+     float: left;
+    }
+    .img51{
+      width: 45%;
+      height: 130px;
+      background-image: url(michael.jpg);
+      border-radius: 15px;
+     float: left;
+     margin: 10px;
+    }
+    .img52{
+      width: 45%;
+      height: 130px;
+     float: left;
+     margin: 10px;
+    }
+
+    /*--------------maindb part----------------*/
+
+    .maindb{
+      width: 100%;
+      height: 550px;
+      margin-top: 15px;
+    }
+    .maindb1{
+      width: 100%;
+      height: 50px;
+      margin: 5px;
+      
+    }
+
+/*---------------maindb part 2-------------------*/
+
+    .maindb2{
+      width: 100%;
+      height: 500px;
+    }
+    .maindb3{
+      width: 24%;
+      height: 165px;
+      float: left;
+      margin: 6px;
+    }
+    .maindbsb{
+      width: 100%;
+      height: 120px;
+      border-radius:5px;
+      margin: 6px;
+      float: left;
+    }
+    .maindbsb2{
+      width: 100%;
+      height: 45px;
+      margin: 6px;
+      float: left;
+    }
+    .maindb4{
+      width: 24%;
+      height: 165px;
+      float: left;
+      margin: 6px;
+    }
+    .maindb43{
+      width: 100%;
+      height: 120px;
+      border-radius:5px;
+      margin: 6px;
+      float: left;
+    }
+    .maindb44{
+      width: 100%;
+      height: 45px;
+      margin: 6px;
+      float: left;
+    }
+    .maindb5{
+      width: 24%;
+      height: 165px;
+      margin: 6px;
+     float: left;
+    }
+    
+    .maindb51{
+      width: 100%;
+      height: 120px;
+      border-radius:5px;
+      margin: 6px;
+      float: left;
+    }
+    
+    .maindb52{
+      width: 100%;
+      height: 45px;
+      margin: 6px;
+      float: left;
+    }
+    .maindb6{
+      width: 24%;
+      height: 165px;
+      margin: 6px;
+      float: left;
+    }
+    .maindb61{
+      width: 100%;
+      height: 120px;
+      border-radius:5px;
+      margin: 6px;
+      float: left;
+    }
+    .maindb62{
+      width: 100%;
+      height: 45px;
+      margin: 6px;
+      float: left;
+    }
+    .maindb7{
+      width: 24%;
+      height: 165px;
+      margin: 6px;
+      float: left;
+    }
+    
+    .maindb71{
+      width: 100%;
+      height: 120px;
+      border-radius:5px;
+      margin: 6px;
+      float: left;
+    }
+    
+    .maindb72{
+      width: 100%;
+      height: 45px;
+      margin: 6px;
+      float: left;
+    }
+    .maindb8{
+      width: 24%;
+      height: 165px;
+      margin: 6px;
+      float: left;
+    }
+    .maindb81{
+      width: 100%;
+      height: 120px;
+      border-radius:5px;
+      margin: 6px;
+      float: left;
+    }
+    
+    .maindb82{
+      width: 100%;
+      height: 45px;
+      margin: 6px;
+      float: left;
+    }
+    .maindb9{
+      width: 24%;
+      height: 165px;
+      margin: 6px;
+      float: left;
+    }
+    .maindb91{
+      width: 100%;
+      height: 120px;
+      border-radius:5px;
+      margin: 6px;
+      float: left;
+    }
+    .maindb92{
+      width: 100%;
+      height: 45px;
+      margin: 6px;
+      float: left;
+    }
+    .maindb10{
+      width: 24%;
+      height: 165px;
+      margin: 6px;
+      float: left;
+    }
+  
+    .maindb010{
+      width: 100%;
+      height: 120px;
+      border-radius:5px;
+      margin: 6px;
+      float: left;
+    }
+    
+    .maindb110{
+      width: 100%;
+      height: 45px;
+      margin: 6px;
+      float: left;
+    }
+    .maindb11{
+      width: 24%;
+      height: 165px;
+      margin: 6px;
+      float: left;
+    }
+    .maindb011{
+      width: 100%;
+      height: 120px;
+      border-radius:5px;
+      margin: 6px;
+      float: left;
+    }
+    .maindb111{
+      width: 100%;
+      height: 45px;
+      margin: 6px;
+      float: left;
+    }
+    .maindb12{
+      width: 24%;
+      height: 165px;
+      margin: 6px;
+      float: left;
+    }
+    .maindb012{
+      width: 100%;
+      height: 120px;
+      border-radius:5px;
+      margin: 6px;
+      float: left;
+    }
+    .maindb112{
+      width: 100%;
+      height: 45px;
+      margin: 6px;
+      float: left;
+    }
+    .maindb13{
+      width: 24%;
+      height: 165px;
+      margin: 6px;
+      float: left;
+    }
+    
+    .maindb013{
+      width: 100%;
+      height: 120px;
+      border-radius:5px;
+      margin: 6px;
+      float: left;
+    }
+    
+    .maindb113{
+      width: 100%;
+      height: 45px;
+      margin: 6px;
+      float: left;
+    }
+    .maindb14{
+      width: 24%;
+      height: 165px;
+      margin: 6px;
+      float: left;
+    }
+    .maindb014{
+      width: 100%;
+      height: 120px;
+      border-radius:5px;
+      margin: 6px;
+      float: left;
+      
+    }
+    .maindb114{
+      width: 100%;
+      height: 45px;
+      margin: 6px;
+      float: left;
+    }
+/*----------------btmbody part----------------------*/
+
+    .btmbody{
+      width: 100%;
+      height: 600px;
+      margin-top: 50px;
+    }
+    
+    .ADD{
+      width: 100%;
+      height: 100px;
+      margin: 6px;
+    }
+    
+    .banar{
+      width: 100%;
+      height: 150px;
+      margin: 6px;
+      margin-top: 5px;
+    }
+    
+/*-----------master part --------------*/
+    .mster{
+      width: 100%;
+      height: 380px;
+      margin: 6px;
+      background-color: #fff;
+      margin-top: 5px;
+    }
+
+/*--------------------master part 1------------------------*/
+    .mster1{
+      width: 45%;
+      height: 375px;
+      margin: 6px;
+      margin-top: 5px;
+      float: left;
+    }
+    .msterup{
+      width: 100%;
+      height: 240px;
+      float: left;
+    }
+
+/*---------------------master part 2------------------------*/
+    .msterup2{
+      width: 100%;
+      height: 100px;
+      float: left;
+      margin-top: 5px;
+      color:yellowgreen;
+    }
+    .mster2{
+      width: 20%;
+      height:275px;
+      margin: 6px;
+      margin-top: 5px;
+      float: left;
+    }
+    
+    .mstermid{
+      width: 100%;
+      height: 180px;
+      float: left;
+     
+    }
+    
+    .mstermid01{
+      width: 100%;
+      height: 125px;
+      float: left;
+     
+    }
+    
+    .mstermid02{
+      width: 100%;
+      height: 50px;
+      float: left;
+     color:royalblue;
+    }
+    
+    .mstermid2{
+      width: 100%;
+      height: 180px;
+      float: left;
+      margin-top: 5px;
+    }
+    
+    .mstermid21{
+      width: 100%;
+      height: 125px;
+      float: left;
+       
+    }
+    
+    .mstermid22{
+      width: 100%;
+      height: 50px;
+      float: left;
+     color:blueviolet;
+    }
+
+/*------------------master part 3----------------------*/
+    .mster3{
+      width: 31%;
+      height: 375px;
+      margin: 6px;
+      float: left;
+    }
+    
+    .mster31{
+      width: 30%;
+      height: 60px;
+      margin: 5px;
+      float: left;
+    }
+    
+    .mster32{
+      width: 60%;
+      height: 60px;
+      margin: 5px;
+      float: left;
+      color:black;
+    }
+    .mster33{
+      width: 30%;
+      height: 60px;
+      margin: 5px;
+      float: left;
+
+    }
+    
+    .mster34{
+      width: 60%;
+      height: 60px;
+      margin: 5px;
+      float: left;
+      color:black;
+    }
+    .mster35{
+      width: 30%;
+      height: 60px;
+      margin: 5px;
+      float: left;
+     
+    }
+    .mster36{
+      width: 60%;
+      height: 60px;
+      margin: 5px;
+      float: left;
+     color:black;
+    }
+    .mster37{
+      width: 30%;
+      height: 60px;
+      margin: 5px;
+      float: left;
+      
+    }
+    
+    .mster38{
+      width: 60%;
+      height: 60px;
+      margin: 5px;
+      float: left;
+     color:black;
+    }
+    .mster39{
+      width: 30%;
+      height: 60px;
+      margin: 5px;
+      float: left;
+     
+    }
+    
+    .mster340{
+      width: 60%;
+      height: 60px;
+      margin: 5px;
+      float: left;
+     color:black;
+    }
+
+/*---------------------footer part------------------------*/
+
+    .footer{
+      background: black;
+      color:#fff;
+      text-align: center;
+      width: 100%;
+      height: 150px;
+      margin-top: 50px;
+      margin-left: 5px;
+      padding: 10px;
+     
+      
+    }
